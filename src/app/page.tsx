@@ -77,10 +77,10 @@ export default function Home(){
         </section>
 
         {/* section # 2 */}
-        <section className="mt-[500px] md:mt-0">
+        <section className="mt-[600px] md:mt-0">
            
                 <h2 className="ml-[75px] md:mb-6 text-[23px] font-semibold">Featured</h2>
-                <Image src="/ho2.png" alt="pic" height={990} width={1280} className="ml-[38px] h-[275px] w-[360px] md:h-[667px] md:w-[1280px] md:ml-[75px] " />
+                <Image src="/ho2.png" alt="pic" height={990} width={1280} className="ml-[38px] h-[275px] w-[300px] md:h-[667px] md:w-[1280px] md:ml-[75px] " />
                 <div className="text-center  mt-14 space-y-5">
           <h1 className="font-semibold text-[20px] md:text-[60px]">STEP INTO WHAT FEELS GOOD</h1>
           <p className="text-wrap pl-5 pr-9  md:pl-[380px] md:pr-[380px]">Cause everyone should know the feeling of running in that perfect pair.</p>
@@ -194,7 +194,7 @@ export default function Home(){
             <section className="mt-24">
             <div className="">
                 <h2 className="ml-9 md:ml-[75px] text-[23px] mb-6 font-semibold">Don,t Miss</h2>
-                <Image src="/ho3.png" alt="pic" height={990} width={1280} className="ml-[38px] h-[275px] w-[365px] md:h-[667px] md:w-[1280px] md:ml-[75px] " />
+                <Image src="/ho3.png" alt="pic" height={990} width={1280} className="ml-[38px] h-[275px] w-[300px] md:h-[667px] md:w-[1280px] md:ml-[75px] " />
                 <div className="text-center  mt-14 space-y-5">
           <h1 className="font-semibold text-[30px] md:text-[60px]">FLIGHT ESSENTIALS</h1>
           <p className="text-wrap  pl-10 pr-10  md:pl-[380px] md:pr-[380px]">Your built-to-last, all-week wears—but with style only Jordan Brand can deliver.</p>

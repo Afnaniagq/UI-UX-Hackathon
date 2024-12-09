@@ -4,7 +4,7 @@ export default function Hero(){
     return(
            <>
            <div className="md:h-[977px] md:w-[1344px]">
-           <Image src="/hero.png" alt="pic" height={990} width={1280} className="ml-[60px] h-[275px] w-[300px] md:ml-[75px]  md:h-[667px] md:w-[1280px]" />
+           <Image src="/hero.png" alt="pic" height={990} width={1280} className="ml-[45px] h-[275px] w-[300px] md:ml-[75px]  md:h-[667px] md:w-[1280px]" />
            <div className="text-center mr-20 mt-14">
           <p className="font-semibold">First Look</p>
           <h1 className="font-semibold  ml-9 text-[30px] md:text-[60px]">NIKE AIR MAX PULSE</h1>

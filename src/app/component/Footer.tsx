@@ -18,17 +18,17 @@ export default function Footer(){
                     <li className="">Student Discounts</li>
                 </ul>
                 
-                <ul className="text-white space-y-4 ml-36 pt-14">
+                <ul className="text-white space-y-4 ml-14 md:ml-36 pt-14 md:block">
                     <li>Get Help</li>
-                    <li className="text-[#7E7E7E]">Order Status</li>
-                    <li className="text-[#7E7E7E]">Delivery</li>
-                    <li className="text-[#7E7E7E]">Returns</li>
-                    <li className="text-[#7E7E7E]">Payment Options</li>
-                    <li className="text-[#7E7E7E]">Contact Us On Nike.com Inquiries</li>
-                    <li className="text-[#7E7E7E]">Contact Us On All Other Inquiries</li>
+                    <li className="text-[#7E7E7E] ">Order Status</li>
+                    <li className="text-[#7E7E7E] ">Delivery</li>
+                    <li className="text-[#7E7E7E] ">Returns</li>
+                    <li className="text-[#7E7E7E] ">Payment Options</li>
+                    <li className="text-[#7E7E7E] ">Contact Us On Nike.com Inquiries</li>
+                    <li className="text-[#7E7E7E] ">Contact Us On All Other Inquiries</li>
                 </ul>
 
-                <ul  className="text-white space-y-4 ml-14 pt-14">
+                <ul  className="text-white space-y-4 mb-7 md:mb-0 ml-14 pt-14">
                     <li >About Nike</li>
                     <li  className="text-[#7E7E7E]">News</li>
                     <li  className="text-[#7E7E7E]">Careers</li>
@@ -36,8 +36,8 @@ export default function Footer(){
                     <li  className="text-[#7E7E7E]">Sustainability</li>
                 </ul>
                 </div>
-          <div className="flex flex-col  md:flex-row pt-14 ml-[320px] space-x-5">
-            <div className="bg-[#7E7E7E]  rounded-full h-11 w-12 pt-2 pl-2 ">
+          <div className="flex flex-col  md:flex-row pt-14 space-y-4 md:space-y-0 md:ml-[320px] space-x-5">
+            <div className="bg-[#7E7E7E]  rounded-full h-11 w-12 pt-2 pl-2 ml-4">
            <FaTwitter  className="text-black text-[29px] "/>
            </div>
            <div className="bg-[#7E7E7E]  rounded-full h-11 w-12 pt-2 pl-2 ">
@@ -56,10 +56,10 @@ export default function Footer(){
                <div className="flex space-x-6">
                 <FaLocationDot className="text-white text-[21px] ml-[49px]"/>
           
-                <p className="text-white size-12 mt- text-[18px] ">India</p>
+                <p className="text-white size-12  text-[18px] ">India</p>
                 <p className="text-[#7E7E7E]"> &copy;2023 Nike, Inc. All Rights Reserved </p>
                 </div>
-                <div>
+                <div className="hidden md:block">
                     <ul className="text-[#7E7E7E] flex mr-28 space-x-6">
                         <li>Guides</li>
                         <li>Terms of Sale</li>
