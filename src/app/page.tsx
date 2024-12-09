@@ -85,7 +85,7 @@ export default function Home(){
           <h1 className="font-semibold text-[20px] md:text-[60px]">STEP INTO WHAT FEELS GOOD</h1>
           <p className="text-wrap pl-5 pr-9  md:pl-[380px] md:pr-[380px]">Cause everyone should know the feeling of running in that perfect pair.</p>
          
-          <button className="bg-black text-[14px] rounded-[30px] h-9 w-32 text-white">Find Your Shoe</button>
+          <button className="bg-black text-[14px] rounded-[30px] h-9 w-32 text-white  hover:text-[16px]">Find Your Shoe</button>
         
          
 
@@ -98,9 +98,10 @@ export default function Home(){
             
                   {/* shop men */}
                   <div className="flex">
+                  <div className="hidden md:block ">
                   <div className="flex mb-2 ml-[450px]">
                 <p className="mt-3 mr-6">Shop Men,s</p>
-                <div className="hidden md:block ">
+               
                 <div className="bg-[#F5F5F5] rounded-full mr-3 h-11 w-11 mt-1 flex items-center justify-center">
                 <ChevronLeft size={24} strokeWidth={1.25} className="text-[#CCCCCC]"/>
                
@@ -111,9 +112,10 @@ export default function Home(){
                 </div>
                 </div>
                  {/* shop women */}
+                 <div className="hidden md:block ">
                  <div className="flex mb-2 ml-[410px]">
                 <p className="mt-3 mr-6">Shop women,s</p>
-                <div className="hidden md:block ">
+                
                 <div className="bg-[#F5F5F5] rounded-full mr-3 h-11 w-11 mt-1 flex items-center justify-center">
                 <ChevronLeft size={24} strokeWidth={1.25} className="text-[#CCCCCC]"/>
                
@@ -199,7 +201,7 @@ export default function Home(){
           <h1 className="font-semibold text-[30px] md:text-[60px]">FLIGHT ESSENTIALS</h1>
           <p className="text-wrap  pl-10 pr-10  md:pl-[380px] md:pr-[380px]">Your built-to-last, all-week wears—but with style only Jordan Brand can deliver.</p>
          
-          <button className="bg-black text-[14px] rounded-[30px] h-9 w-20 hover:h-[40px] hover:w-[85px] text-white">Shop</button>
+          <button className="bg-black text-[14px] rounded-[30px] h-9 w-20  text-white  hover:text-[16px]">Shop</button>
         
           </div>
              </div>

@@ -38,23 +38,23 @@ export default function Footer(){
                 </div>
           <div className="flex flex-col  md:flex-row pt-14 space-y-4 md:space-y-0 md:ml-[320px] space-x-5">
             <div className="bg-[#7E7E7E]  rounded-full h-11 w-12 pt-2 pl-2 ml-4">
-           <FaTwitter  className="text-black text-[29px] "/>
+           <FaTwitter  className="text-black text-[29px] hover:text-[32px] hover:text-blue-500"/>
            </div>
            <div className="bg-[#7E7E7E]  rounded-full h-11 w-12 pt-2 pl-2 ">
-           <FaFacebookF  className="text-black text-[29px]"/>
+           <FaFacebookF  className="text-black text-[29px] hover:text-[32px]  hover:text-blue-700"/>
            </div>
            <div className="bg-[#7E7E7E]  rounded-full h-11 w-12 pt-2 pl-2 ">
-           <TfiYoutube  className="text-black text-[29px]"/>
+           <TfiYoutube  className="text-black text-[29px] hover:text-[32px]  hover:text-red-600"/>
            </div>
            <div className="bg-[#7E7E7E]  rounded-full h-11 w-12 pt-2 pl-2 ">
-           <FaCameraRetro  className="text-black text-[29px]"/>
+           <FaCameraRetro  className="text-black text-[29px] hover:text-[32px]   hover:text-yellow-400"/>
            </div>
            </div>
           
                </div>
                <div className="bg-[#111111] h-16 flex justify-between space-x-6">
                <div className="flex space-x-6">
-                <FaLocationDot className="text-white text-[21px] ml-[49px]"/>
+                <FaLocationDot className="text-white text-[21px] ml-[49px]  hover:text-red-500"/>
           
                 <p className="text-white size-12  text-[18px] ">India</p>
                 <p className="text-[#7E7E7E]"> &copy;2023 Nike, Inc. All Rights Reserved </p>
