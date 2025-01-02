@@ -8,9 +8,9 @@ import { FaLocationDot } from "react-icons/fa6";
 export default function Footer(){
     return(
         <>
-        <div className="md:h-[390px] bg-[#111111] w-full flex  ">
+        <div className="h-auto lg:h-[390px] bg-[#111111] w-full flex  bottom-0  ">
             <div className="flex flex-col  md:flex-row">
-                <ul className="text-white space-y-4 ml-14 pt-14">
+                <ul className="text-white space-y-4 ml-9 md:ml-14 pt-14">
                     <li className="">Find A Store</li>
                     <li className="">Become A Member</li>
                     <li className="">Sign Up for Email</li>
@@ -18,7 +18,7 @@ export default function Footer(){
                     <li className="">Student Discounts</li>
                 </ul>
                 
-                <ul className="text-white space-y-4 ml-14 md:ml-36 pt-14 md:block">
+                <ul className="text-white space-y-4 ml-9 md:ml-36 pt-14 md:block">
                     <li>Get Help</li>
                     <li className="text-[#7E7E7E] ">Order Status</li>
                     <li className="text-[#7E7E7E] ">Delivery</li>
@@ -28,7 +28,7 @@ export default function Footer(){
                     <li className="text-[#7E7E7E] ">Contact Us On All Other Inquiries</li>
                 </ul>
 
-                <ul  className="text-white space-y-4 mb-7 md:mb-0 ml-14 pt-14">
+                <ul  className="text-white space-y-4 mb-7 md:mb-0 ml-9 pt-14">
                     <li >About Nike</li>
                     <li  className="text-[#7E7E7E]">News</li>
                     <li  className="text-[#7E7E7E]">Careers</li>
@@ -36,8 +36,8 @@ export default function Footer(){
                     <li  className="text-[#7E7E7E]">Sustainability</li>
                 </ul>
                 </div>
-          <div className="flex flex-col  md:flex-row pt-14 space-y-4 md:space-y-0 md:ml-[320px] space-x-5">
-            <div className="bg-[#7E7E7E]  rounded-full h-11 w-12 pt-2 pl-2 ml-4">
+          <div className="flex flex-col md:flex-col   lg:flex-row pt-14 space-y-4 md:space-y-4   md:mr-[10px] lg:ml-[320px] space-x-5">
+            <div className="bg-[#7E7E7E]  rounded-full h-11 w-12 pt-2 mt-4 pl-2 ml-4">
            <FaTwitter  className="text-black text-[29px] hover:text-[32px] hover:text-blue-500"/>
            </div>
            <div className="bg-[#7E7E7E]  rounded-full h-11 w-12 pt-2 pl-2 ">
@@ -52,7 +52,7 @@ export default function Footer(){
            </div>
           
                </div>
-               <div className="bg-[#111111] h-16 flex justify-between space-x-6">
+               <div className="bg-[#111111] h-16 flex justify-between space-x-6 bottom-0 left-0">
                <div className="flex space-x-6">
                 <FaLocationDot className="text-white text-[21px] ml-[49px]  hover:text-red-500"/>
           
