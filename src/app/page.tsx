@@ -16,7 +16,7 @@ export default function Home(){
         <Hero/> 
         <Shoes/>
      {/* section # 2 */}
-        <section className="mt-[500px] mt-0 md:mt-0  max-w-screen-2xl mx-auto container">
+        <section className="mt-[500px]  md:mt-0  max-w-screen-2xl mx-auto container">
            
                 <h2 className="ml-[75px] md:mb-6 text-[23px] font-semibold">Featured</h2>
                 <Image src="/ho2.png" alt="pic" height={990} width={1280} className="ml-[40px] w-[300px] h-auto md:w-[650px] lg:ml-[70px] lg:w-[1280px]  " />

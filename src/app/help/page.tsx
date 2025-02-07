@@ -22,9 +22,9 @@ export default function Help(){
                 <h2 className="font-semibold text-[10px] lg:text-[28px] mt-3">WHAT PAYMENT OPTIONS CAN I USE ON NIKE ORDERS?</h2>
                 <p className=" text-[10px]  lg:text-[15px]">We want to make buying your favourite Nike shoes and gear online fast and easy&rsquo; and we accept the following payment options:</p>
                 <p className=" text-[10px] lg:text-[15px] ml-9">Visa&rsquo; Mastercard&rsquo; Diners Club&rsquo; Discover&rsquo; American Express&rsquo; Visa Electron&rsquo; Maestro</p>
-                <p className=" text-[10px] lg:text-[15px] ml-9">If you enter your PAN information at checkout&rsquo; you'll be able to pay for your order with PayTM or a local credit or debit card.</p>
+                <p className=" text-[10px] lg:text-[15px] ml-9">If you enter your PAN information at checkout&rsquo; you&apos;ll be able to pay for your order with PayTM or a local credit or debit card.</p>
                 <p className=" text-[10px] lg:text-[15px] ml-9">Apple Pay</p>
-                <p className=" text-[10px] lg:text-[15px]"><a href="#" className="underline font-medium  text-[10px] lg:text-[15px]">Nike Members </a>can store multiple debit or credit cards in their profile for faster checkout. If you're not already a Member&rsquo; join us today.</p>
+                <p className=" text-[10px] lg:text-[15px]"><a href="#" className="underline font-medium  text-[10px] lg:text-[15px]">Nike Members </a>can store multiple debit or credit cards in their profile for faster checkout. If you&apos;re not already a Member&rsquo; join us today.</p>
 
              {/* buttons   */}
              <div className="flex gap-4">
@@ -44,13 +44,13 @@ export default function Help(){
                 <p className="text-[10px]   mt-4 lg:text-[16px]">Please note&rsquo; some banks may charge <a className="text-[10px]   underline font-semibold" href="#">a small transaction fee </a>for international orders.</p>
 
                 <h3 className="text-[10px]   font-semibold  lg:text-[16px] mt-4">Can I pay for my order with multiple methods?</h3>
-                <p className="text-[10px]   mt-3  lg:text-[16px]">No&rsquo; payment for Nike orders can't be split between multiple payment methods.</p>
+                <p className="text-[10px]   mt-3  lg:text-[16px]">No&rsquo; payment for Nike orders can&apos;t be split between multiple payment methods.</p>
 
                 <h3 className="text-[10px]   font-semibold  lg:text-[16px] mt-4">What payment method is accepted for SNKRS orders?</h3>
                 <p className="text-[10px]   mt-3  lg:text-[16px]">You can use any accepted credit card to pay for your SNKRS order.</p>
 
-                <h3 className="text-[10px]   font-semibold  lg:text-[16px] mt-4">Why don't I see Apple Pay as an option?</h3>
-                <p className="text-[10px]   mt-3  lg:text-[16px]">To see Apple Pay as an option in the Nike App or on Nike.com&rsquo; you'll need to use a compatible Apple device running the latest OS&rsquo; be signed in to your iCloud account and have a supported card in your Wallet. Additionally&rsquo; you'll need to use Safari to use Apple Pay on Nike.com.</p>
+                <h3 className="text-[10px]   font-semibold  lg:text-[16px] mt-4">Why don&apos;t I see Apple Pay as an option?</h3>
+                <p className="text-[10px]   mt-3  lg:text-[16px]">To see Apple Pay as an option in the Nike App or on Nike.com&rsquo; you&apos;ll need to use a compatible Apple device running the latest OS&rsquo; be signed in to your iCloud account and have a supported card in your Wallet. Additionally&rsquo; you&apos;ll need to use Safari to use Apple Pay on Nike.com.</p>
              </div>
 
              {/* para  */}
@@ -67,7 +67,7 @@ export default function Help(){
  
              <p className="text-[#757575]  text-[10px] lg:text-[16px]">RELATED</p>
              <div className="flex flex-col ml-[16px] space-y-4">
-             <a href="#" className="underline  text-[10px] lg:text-[16px] font-medium">WHAT ARE NIKE'S DELIVERY OPTIONS?</a>
+             <a href="#" className="underline  text-[10px] lg:text-[16px] font-medium">WHAT ARE NIKE&apos;S DELIVERY OPTIONS?</a>
              <a href="#" className="underline  text-[10px] lg:text-[16px] font-medium">HOW DO I GET FREE DELIVERY ON NIKE ORDERS?</a>
              </div>
 
@@ -98,7 +98,7 @@ export default function Help(){
               Third icon 
                 <svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" viewBox="0 0 100 100" className="mt-16 hover:text-yellow-300"><path fill="currentColor" d="M85.944 20.189H14.056a2.56 2.56 0 0 0-2.556 2.557v5.144c0 .237.257.509.467.619l37.786 21.583a.63.63 0 0 0 .318.083a.63.63 0 0 0 .324-.088L87.039 28.53c.206-.115.752-.419.957-.559c.248-.169.504-.322.504-.625v-4.601a2.56 2.56 0 0 0-2.556-2.556m2.237 15.457a.64.64 0 0 0-.645.004L66.799 47.851a.637.637 0 0 0-.145.985l20.74 22.357a.63.63 0 0 0 .467.204a.64.64 0 0 0 .639-.639V36.201a.64.64 0 0 0-.319-.555M60.823 51.948a.636.636 0 0 0-.791-.118l-8.312 4.891a3.24 3.24 0 0 1-3.208.021l-7.315-4.179a.64.64 0 0 0-.751.086L12.668 78.415a.64.64 0 0 0 .114 1.02c.432.254.849.375 1.273.375h71.153a.64.64 0 0 0 .585-.385a.64.64 0 0 0-.118-.689zm-26.489-2.347a.64.64 0 0 0-.115-1.023L12.453 36.146a.638.638 0 0 0-.953.556v32.62a.637.637 0 0 0 1.073.468z"/></svg>
 
-                <p className="text-[16px] mt-3 font-semibold">We'll reply within</p>
+                <p className="text-[16px] mt-3 font-semibold">We&apos;ll reply within</p>
                 <p className="text-[16px] ">five business days</p>
               Fourth icon
 
