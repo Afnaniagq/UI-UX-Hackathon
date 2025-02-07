@@ -19,7 +19,7 @@ import {
 export default function Navbar(){
     return(
         <>
-        <nav className=" h-[60px]  w-auto bg-[#FFFFFF] ">
+        <nav className=" h-[60px] w-[330px] md:w-[650px] lg:w-auto bg-[#FFFFFF]  max-w-screen-2xl mx-auto container  ">
            <div className="flex justify-between  ">
             <Image src="/nav.png" height={100} width={100} alt="logo" className="ml-9 mt-3 h-5 w-14" />
             <ul className="hidden lg:block  ">

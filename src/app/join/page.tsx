@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Join(){
     return(
         <>
-        <section className="bg-[#FFFFFF] w-[380px] h-[833px] ml-[10px] md:ml-[240px] lg:ml-[515.5px] flex flex-col pt-6 items-center">
+        <section className="bg-[#FFFFFF] w-[380px] h-[833px]  flex flex-col pt-6 items-center max-w-screen-2xl mx-auto container">
         <Image src="/nav.png" alt="" height={50} width={60} className="h-[17px] mt-3"/>
         <h1 className="font-bold text-[18px] mt-7">BECOME A NIKE MEMBER</h1>
         <p className="text-center text-[#7E7E7E] text-[14px]  mt-7 pl-12 pr-12 flex items-center">Create your Nike Member profile and get first access to the very best of Nike products&#39; inspiration and community.</p>
@@ -31,7 +31,7 @@ export default function Join(){
         <button className="h-[40px] w-[324px] bg-black text-white mt-[20px] hover:text-[20px]">JOIN US</button>
         <div className="flex justify-center mt-[15px] text-[11px]">
             <p  className="text-[12px] hidden md:block text-[#7E7E7E]"> Already a Member?</p>
-            <Link href="" className="sm:text-center underline text-[142x] font-semibold hover:text-blue-600">Sign in</Link>
+            <Link href="/sign-in" className="sm:text-center underline text-[142x] font-semibold hover:text-blue-600">Sign in</Link>
             </div>
         </section>
         </>

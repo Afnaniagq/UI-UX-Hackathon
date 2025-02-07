@@ -8,7 +8,7 @@ import { FaLocationDot } from "react-icons/fa6";
 export default function Footer(){
     return(
         <>
-        <div className="h-auto lg:h-[390px] bg-[#111111] w-full flex  bottom-0  ">
+        <div className="h-auto lg:h-[390px] bg-[#111111] w-full flex  bottom-0 max-w-screen-2xl mx-auto container ">
             <div className="flex flex-col  md:flex-row">
                 <ul className="text-white space-y-4 ml-9 md:ml-14 pt-14">
                     <li className="">Find A Store</li>
@@ -52,7 +52,8 @@ export default function Footer(){
            </div>
           
                </div>
-               <div className="bg-[#111111] h-16 flex justify-between space-x-6 bottom-0 left-0">
+               {/* location  */}
+               <div className="bg-[#111111] h-16 flex justify-between space-x-6 bottom-0 left-0  max-w-screen-2xl mx-auto container ">
                <div className="flex space-x-6">
                 <FaLocationDot className="text-white text-[21px] ml-[49px]  hover:text-red-500"/>
           
