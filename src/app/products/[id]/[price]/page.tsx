@@ -29,7 +29,7 @@ const ProductId = ({params} :{params :{id:string ;image:string ;price:any}}) => 
         <div className="">
       <h2 className='text-5xl font-medium  '>{productName}</h2>
       </div>
-        <p className='text-[15px] text  mt-7'>Turn style on its head with this crafted take on the Air Jordan 1 Mid. Its "inside out"-inspired construction, including unique layering and exposed foam accents, ups the ante on this timeless Jordan Brand silhouette. Details like the deco stitching on the Swoosh add coveted appeal, while the unexpected shading, rich mixture of materials and aged midsole aesthetic give this release an artisan finish.</p>
+        <p className='text-[15px] text  mt-7'>Turn style on its head with this crafted take on the Air Jordan 1 Mid. Its &quot;inside out&quot;-inspired construction&quot; including unique layering and exposed foam accents&quot; ups the ante on this timeless Jordan Brand silhouette. Details like the deco stitching on the Swoosh add coveted appeal&quot; while the unexpected shading&quot; rich mixture of materials and aged midsole aesthetic give this release an artisan finish.</p>
         <div className="flex mt-6 mb-6">
         <FaIndianRupeeSign className="text-[32px] mt-3 ml-1" />
       <p className='text-[32px] font-semibold'>{price}</p>

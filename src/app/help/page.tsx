@@ -20,11 +20,11 @@ export default function Help(){
             {/*left div  */}
             <div className=" h-[1024px] w-[300px] md:w-[500px] lg:w-[939px] space-y-4">
                 <h2 className="font-semibold text-[10px] lg:text-[28px] mt-3">WHAT PAYMENT OPTIONS CAN I USE ON NIKE ORDERS?</h2>
-                <p className=" text-[10px]  lg:text-[15px]">We want to make buying your favourite Nike shoes and gear online fast and easy, and we accept the following payment options:</p>
-                <p className=" text-[10px] lg:text-[15px] ml-9">Visa, Mastercard, Diners Club, Discover, American Express, Visa Electron, Maestro</p>
-                <p className=" text-[10px] lg:text-[15px] ml-9">If you enter your PAN information at checkout, you'll be able to pay for your order with PayTM or a local credit or debit card.</p>
+                <p className=" text-[10px]  lg:text-[15px]">We want to make buying your favourite Nike shoes and gear online fast and easy&rsquo; and we accept the following payment options:</p>
+                <p className=" text-[10px] lg:text-[15px] ml-9">Visa&rsquo; Mastercard&rsquo; Diners Club&rsquo; Discover&rsquo; American Express&rsquo; Visa Electron&rsquo; Maestro</p>
+                <p className=" text-[10px] lg:text-[15px] ml-9">If you enter your PAN information at checkout&rsquo; you'll be able to pay for your order with PayTM or a local credit or debit card.</p>
                 <p className=" text-[10px] lg:text-[15px] ml-9">Apple Pay</p>
-                <p className=" text-[10px] lg:text-[15px]"><a href="#" className="underline font-medium  text-[10px] lg:text-[15px]">Nike Members </a>can store multiple debit or credit cards in their profile for faster checkout. If you're not already a Member, join us today.</p>
+                <p className=" text-[10px] lg:text-[15px]"><a href="#" className="underline font-medium  text-[10px] lg:text-[15px]">Nike Members </a>can store multiple debit or credit cards in their profile for faster checkout. If you're not already a Member&rsquo; join us today.</p>
 
              {/* buttons   */}
              <div className="flex gap-4">
@@ -39,18 +39,18 @@ export default function Help(){
              <div className="mt-2 ">
                 <h2 className="text-[10px]   lg:text-[20px] font-semibold ">FAQs</h2>
                 <h3 className="text-[10px]   font-semibold lg:text-[16px]">Does my card need international purchases enabled?</h3>
-                <p className="text-[10px]   lg:text-[16px] mt-3">Yes, we recommend asking your bank to enable international purchases on your card. You will be notified at checkout if international purchases need to be enabled.</p>
+                <p className="text-[10px]   lg:text-[16px] mt-3">Yes&rsquo; we recommend asking your bank to enable international purchases on your card. You will be notified at checkout if international purchases need to be enabled.</p>
 
-                <p className="text-[10px]   mt-4 lg:text-[16px]">Please note, some banks may charge <a className="text-[10px]   underline font-semibold" href="#">a small transaction fee </a>for international orders.</p>
+                <p className="text-[10px]   mt-4 lg:text-[16px]">Please note&rsquo; some banks may charge <a className="text-[10px]   underline font-semibold" href="#">a small transaction fee </a>for international orders.</p>
 
                 <h3 className="text-[10px]   font-semibold  lg:text-[16px] mt-4">Can I pay for my order with multiple methods?</h3>
-                <p className="text-[10px]   mt-3  lg:text-[16px]">No, payment for Nike orders can't be split between multiple payment methods.</p>
+                <p className="text-[10px]   mt-3  lg:text-[16px]">No&rsquo; payment for Nike orders can't be split between multiple payment methods.</p>
 
                 <h3 className="text-[10px]   font-semibold  lg:text-[16px] mt-4">What payment method is accepted for SNKRS orders?</h3>
                 <p className="text-[10px]   mt-3  lg:text-[16px]">You can use any accepted credit card to pay for your SNKRS order.</p>
 
                 <h3 className="text-[10px]   font-semibold  lg:text-[16px] mt-4">Why don't I see Apple Pay as an option?</h3>
-                <p className="text-[10px]   mt-3  lg:text-[16px]">To see Apple Pay as an option in the Nike App or on Nike.com, you'll need to use a compatible Apple device running the latest OS, be signed in to your iCloud account and have a supported card in your Wallet. Additionally, you'll need to use Safari to use Apple Pay on Nike.com.</p>
+                <p className="text-[10px]   mt-3  lg:text-[16px]">To see Apple Pay as an option in the Nike App or on Nike.com&rsquo; you'll need to use a compatible Apple device running the latest OS&rsquo; be signed in to your iCloud account and have a supported card in your Wallet. Additionally&rsquo; you'll need to use Safari to use Apple Pay on Nike.com.</p>
              </div>
 
              {/* para  */}
@@ -86,10 +86,10 @@ export default function Help(){
                 <svg xmlns="http://www.w3.org/2000/svg" width="90" height="90" viewBox="0 0 24 24" className=" mt-5 hover:text-gray-500"><path fill="currentColor" d="M16.73 2.065H7.27a2.386 2.386 0 0 0-2.24 2.5v14.87a2.386 2.386 0 0 0 2.24 2.5h9.46a2.386 2.386 0 0 0 2.24-2.5V4.565a2.386 2.386 0 0 0-2.24-2.5m1.24 17.37a1.39 1.39 0 0 1-1.24 1.5H7.27a1.39 1.39 0 0 1-1.24-1.5V4.565a1.39 1.39 0 0 1 1.24-1.5H8.8v.51a1 1 0 0 0 1 1h4.4a1 1 0 0 0 1-1v-.51h1.53a1.39 1.39 0 0 1 1.24 1.5Z"/><path fill="currentColor" d="M10 18.934h4a.5.5 0 0 0 0-1h-4a.5.5 0 0 0 0 1"/></svg>
                
                 <p className="text-[10px] lg:text-[16px] font-semibold mt-2">000 800 919 0566</p>
-                <p className="text-[10px] lg:text-[16px] ">Products & Orders: 24 hours a day,</p>
+                <p className="text-[10px] lg:text-[16px] ">Products & Orders: 24 hours a day&rsquo;</p>
                 <p className="text-[10px] lg:text-[16px] "> 7 days a week</p>
                 <p className="text-[10px] lg:text-[16px] ">Company Info & Enquiries: 07:30 -</p>
-                <p className="text-[10px] lg:text-[16px] "> 16:30, Monday - Friday</p>
+                <p className="text-[10px] lg:text-[16px] "> 16:30&rsquo; Monday - Friday</p>
               Second icon
 
                 <svg xmlns="http://www.w3.org/2000/svg" width="65" height="65" viewBox="0 0 24 24 " className="mt-16 hover:text-blue-400"><path fill="currentColor" d="M19 3H5a3 3 0 0 0-3 3v15a1 1 0 0 0 .51.87A1 1 0 0 0 3 22a1 1 0 0 0 .51-.14L8 19.14a1 1 0 0 1 .55-.14H19a3 3 0 0 0 3-3V6a3 3 0 0 0-3-3M8 12a1 1 0 1 1 1-1a1 1 0 0 1-1 1m4 0a1 1 0 1 1 1-1a1 1 0 0 1-1 1m4 0a1 1 0 1 1 1-1a1 1 0 0 1-1 1"/></svg>
