@@ -16,10 +16,11 @@ export default function Home(){
         <Hero/> 
         <Shoes/>
      {/* section # 2 */}
-        <section className="mt-[500px]  md:mt-0  max-w-screen-2xl mx-auto container">
+        <section className="mt-0  max-w-screen-2xl mx-auto container">
            
-                <h2 className="ml-[75px] md:mb-6 text-[23px] font-semibold">Featured</h2>
-                <Image src="/ho2.png" alt="pic" height={990} width={1280} className="ml-[40px] w-[300px] h-auto md:w-[650px] lg:ml-[70px] lg:w-[1280px]  " />
+                <h2 className="ml-[30px] mb-4 md:ml-[75px] md:mb-6 text-2xl font-bold">Featured</h2>
+                <Image src="/ho2.png" alt="pic" height={990} width={1280} className=" w-full px-7 md:px-20" />
+                {/* ml-[40px] w-[300px] h-auto md:w-[650px] lg:ml-[70px] lg:w-[1280px]  */}
                 <div className="text-center  mt-14 space-y-5">
           <h1 className="font-semibold text-[20px] md:text-[35px] lg:text-[60px]">STEP INTO WHAT FEELS GOOD</h1>
           <p className="text-wrap pl-5 pr-9  lg:pl-[380px] lg:pr-[380px]">Cause everyone should know the feeling of running in that perfect pair.</p>
@@ -37,13 +38,13 @@ export default function Home(){
             {/* section 3 */}
             <section className="mt-24 max-w-screen-2xl mx-auto container">
             <div className="">
-                <h2 className="ml-[75px] md:ml-[75px] text-[23px] mb-6 font-semibold">Don&#39;t Miss</h2>
+                <h2 className="ml-[30px] mb-4 md:ml-[75px] md:mb-6 text-2xl font-bold">Don&#39;t Miss</h2>
                 <Image src="/ho3.png" alt="pic" height={990} width={1280} className="ml-[40px] w-[300px] h-auto md:w-[650px] lg:ml-[70px] lg:w-[1280px]  " />
                 <div className="text-center  mt-14 space-y-5">
           <h1 className="font-semibold text-[30px] md:text-[60px]">FLIGHT ESSENTIALS</h1>
           <p className="text-wrap  pl-10 pr-10  lg:pl-[380px] lg:pr-[380px]">Your built-to-last&#39; all-week wears—but with style only Jordan Brand can deliver.</p>
          
-          <button className="bg-black text-[14px] rounded-[30px] h-9 w-20  text-white  hover:text-[16px]">Shop</button>
+          <button className="bg-black text-[16px] rounded-[30px] h-12 w-28  text-white  hover:text-[16px]">Shop</button>
         
           </div>
              </div>

@@ -50,7 +50,7 @@ useEffect(() => {
 
 
             {/* first side div */}
-            <div className="flex">
+            <div className="flex  flex-col  md:flex-row">
         <div className="  lg:flex ">
               
             <div className="flex flex-col h-[849px] w-[260px] bg-[#FFFF] text-[15px] mt-4">
@@ -146,15 +146,16 @@ useEffect(() => {
 
                 </div>
                 </div>
-                  
+                
+                  {/* data fetchig */}
                 <div className=" max-w-6xl  mx-auto px-4 py-8">
                 
-                    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-6" >
+                    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-6" >
                 
                 { product.map((product) => (
                 
                         <div key={product._id}
-                        className="border rounded-lg shadow-md p-4 hover:shadow-lg transition duration-200">
+                        className="border rounded-lg shadow-md p-4 hover:shadow-lg mt-6 transition duration-200">
                             {product.image && (
                                 <Image
                                 src={urlFor(product.image).url()}
