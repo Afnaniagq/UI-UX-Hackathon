@@ -6,7 +6,7 @@ import { FaLessThan } from "react-icons/fa6";
 import { FaIndianRupeeSign } from "react-icons/fa6";
 import { ChevronLeft, ChevronRight, CircleChevronRight } from "lucide-react";
 import Navline from "./component/Navline";
-import Shoes from "./component/Shoes";
+import Best from "./component/Best";
 import Gear from "./component/Gear";
 
 export default function Home(){
@@ -14,7 +14,7 @@ export default function Home(){
         <>
         <Navline/> 
         <Hero/> 
-        <Shoes/>
+        <Best/>
      {/* section # 2 */}
         <section className="mt-0  max-w-screen-2xl mx-auto container">
            

@@ -7,8 +7,9 @@ import { Product } from "../../../types/products";
 import { client } from "@/sanity/lib/client";
 import { allProducts, four } from "@/sanity/lib/queries";
 import { urlFor } from "@/sanity/lib/image";
+import Link from "next/link";
 
- const Shoes =() =>{
+ const Best =() =>{
 
 const [product,setProduct] =useState<Product[]>([])
 
@@ -30,6 +31,7 @@ useEffect(() => {
 { product.map((product) => (
         <div key={product._id}
         className="border rounded-lg shadow-md p-4 hover:shadow-lg transition duration-200">
+             <Link href={`/product/${product.slug.current}`}>
             {product.image && (
                 <Image
                 src={urlFor(product.image).url()}
@@ -43,13 +45,13 @@ useEffect(() => {
             <h2 className="text-[17px] font-semibold mt-4">
                 {product.productName}
             </h2>
-           <p className="text-gray-500 mt-4"> 
+           <p className="text-gray-500 mt-4  hover:text-green-500"> 
             {product.price ? `$${product.price}` :"price nnot available"}</p>
             </div>
             <h2 className="text-gray-400 text-[15px]  mt-4">
                 {product.category}
             </h2>
-
+            </Link>
 
         </div>
     ))
@@ -116,4 +118,4 @@ useEffect(() => {
 </div>
   );
 };
-export default Shoes;
+export default Best;

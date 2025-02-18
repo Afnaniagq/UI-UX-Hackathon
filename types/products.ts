@@ -12,9 +12,13 @@ export interface Product {
         }
     };
     price :number;
-    descriptiom? :string;
+    description?:string;
     status:string;
     category:string;
     color:string[];
+    slug:{
+        _type :"slug";
+        current :string;
+    };
     
 }

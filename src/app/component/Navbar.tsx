@@ -24,7 +24,7 @@ export default function Navbar(){
             <Image src="/nav.png" height={100} width={100} alt="logo" className="ml-9 mt-3 h-5 w-14" />
             <ul className="hidden lg:block  ">
                 <li className="space-x-6 ml-[313px] mt-4 font-semibold">
-                    <Link href="/products" className="text-black text-[15px] hover:bg-slate-600 rounded hover:text-white " >New & Featured</Link>
+                    <Link href="/shoes" className="text-black text-[15px] hover:bg-slate-600 rounded hover:text-white " >New & Featured</Link>
                     <Link href="" className="text-black text-[15px]   hover:bg-slate-600 rounded hover:text-white " >Men</Link>
                     <Link href="" className="text-black text-[15px]   hover:bg-slate-600 rounded hover:text-white " >Women</Link>
                     <Link href="" className="text-black text-[15px]   hover:bg-slate-600 rounded hover:text-white " >Kids</Link>

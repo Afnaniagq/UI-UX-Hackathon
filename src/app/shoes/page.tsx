@@ -1,5 +1,5 @@
 "use client"
-import { ChevronLeft, ChevronRight, Link } from "lucide-react";
+
 import Image from "next/image";
 import React, { useEffect, useState } from "react";
 import { FaIndianRupeeSign } from "react-icons/fa6";
@@ -9,10 +9,11 @@ import { allProducts, four } from "@/sanity/lib/queries";
 import { urlFor } from "@/sanity/lib/image";
 import { RiArrowDropDownLine } from "react-icons/ri";
 import { RiArrowDropUpLine } from "react-icons/ri";
+import Link from "next/link";
 
 
 
-export default function Featured(){
+export default function Shoes(){
 
 const [product,setProduct] =useState<Product[]>([])
 
@@ -147,15 +148,17 @@ useEffect(() => {
                 </div>
                 </div>
                 
-                  {/* data fetchig */}
+     {/* data fetchig */}
                 <div className=" max-w-6xl  mx-auto px-4 py-8">
                 
                     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-6" >
                 
-                { product.map((product) => (
+                      { product.map((product) => (
                 
                         <div key={product._id}
                         className="border rounded-lg shadow-md p-4 hover:shadow-lg mt-6 transition duration-200">
+
+                            <Link href={`/product/${product.slug.current}`}>
                             {product.image && (
                                 <Image
                                 src={urlFor(product.image).url()}
@@ -177,9 +180,9 @@ useEffect(() => {
 
                            <p className="text-black font-semibold mt-4"> 
                             {product.price ? `$${product.price}` :"price nnot available"}</p>
-                                 
+                            </Link>    
                              
-                        </div>
+                  </div>
                    
                     ))
                 }
